@@ -8,4 +8,16 @@ layout: default
     </header>
     <p>{{ page.date | date_to_string }}</p>
         {{ content }}
+
+        <ul class="actions fit">	
+                <li>	
+                <a href="{{page.previous.url}}" class="button fit">上一篇</a>
+                </li>
+                
+                <li><a href="/" class="button fit">回首页</a></li>
+                
+                <li>
+                <a href="{{page.next.url}}" class="button fit">下一篇</a>
+                </li>
+        </ul>
 </section>
