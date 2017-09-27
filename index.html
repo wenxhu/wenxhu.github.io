@@ -3,18 +3,16 @@ layout: default
 title: Wenxuan Hu
 ---
 <h2><i class="fa fa-bookmark"></i> Blog Posts</h2>
-<section id="one">
-		
-<header class="major">
-{% for post in paginator.posts %}
-<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+{% for post in site.posts %}
+<h2><i class="fa fa-circle"></i><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 {% endfor %}
-</header>
-</section>
+
+
+<!--
 
 
 
-                              <!-- One -->
+                              
                                 <section id="one">
 								<header class="major">
 									<h2>Ipsum lorem dolor aliquam ante commodo<br />
@@ -26,7 +24,7 @@ title: Wenxuan Hu
 								</ul>
 							</section>
 		
-						<!-- Two -->
+						
 							<section id="two">
 								<h2>Recent Work</h2>
 								<div class="row">
@@ -66,7 +64,7 @@ title: Wenxuan Hu
 								</ul>
 							</section>
 		
-						<!-- Three -->
+						
 							<section id="three">
 								<h2>Get In Touch</h2>
 								<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
@@ -104,7 +102,7 @@ title: Wenxuan Hu
 								</div>
 							</section>
 		
-						<!-- Four -->
+						
 						
 							<section id="four">
 								<h2>Elements</h2>
@@ -422,4 +420,4 @@ title: Wenxuan Hu
 								</section>
 		
 							</section>
-
+						-->
