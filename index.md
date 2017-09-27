@@ -4,7 +4,7 @@ title: Wenxuan Hu
 ---
 <h2><i class="fa fa-bookmark"></i> Blog Posts</h2>
 {% for post in site.posts %}
-<h2><i class="fa fa-circle"></i><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+<h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 {% endfor %}
 
 

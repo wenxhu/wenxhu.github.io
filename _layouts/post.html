@@ -1,17 +1,11 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-    <title>{{ page.title }}</title>
-    {% include head.html %}
-    </head>
-	<body id="top">
-        {% include header.html %}
-		<!-- Main -->
-        <div id="main">
-            {{ content }}   
-            </div>
-        {% include footer.html %}
-        {% include baidu_analytics.html %}
-        {% include script.html %}
-	</body>
-</html>
+--- 
+layout: default
+---
+
+      <section id="one">
+            <header class="major">
+                <h2>{{ page.title }}</h2>
+            </header>
+            <p>{{ page.date | date_to_string }}</p>
+            {{ content }}
+        </section>
