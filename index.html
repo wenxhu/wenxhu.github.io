@@ -4,7 +4,7 @@ title: Wenxuan Hu
 ---
 <h2><i class="fa fa-bookmark"></i> Blog Posts</h2>
 {% for post in site.posts %}
-<p class="alt">{{ page.date | date: "%B %d, %Y" }}<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+<h3 class="alt">{{ page.date | date: "%B %d, %Y" }}<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
 {% endfor %}
 <!--
 <ul class="actions">
