@@ -5,14 +5,14 @@ title: Wenxuan Hu
 <h2><i class="fa fa-bookmark"></i> Blog Posts</h2>
 {% for post in site.posts %}
 {{ page.date | date: "%B %d, %Y" }}
-<h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+<p><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
 {% endfor %}
-
+<!--
 <ul class="actions">
 		<li><a href="#" class="button">上一页</a></li>
 		<li><a href="#" class="button">下一页</a></li>
 </ul>
-
+-->
 
 <!--
 
