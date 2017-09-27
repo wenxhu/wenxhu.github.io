@@ -1,3 +1,17 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <title>{{ page.title }}</title>
+    {% include head.html %}
+    </head>
+	<body id="top">
+        {% include header.html %}
+		<!-- Main -->
+        <div id="main">
+            {{ content }}   
+            </div>
+        {% include footer.html %}
+        {% include baidu_analytics.html %}
+        {% include script.html %}
+	</body>
+</html>
