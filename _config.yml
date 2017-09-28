@@ -2,8 +2,3 @@ url: https://huwx.top
 baseurl: ""
 markdown: kramdown
 permalink: :title.html
-
-paginate: 9
-paginate_path: "page:num"
-
-plugins: [jekyll-paginate]
