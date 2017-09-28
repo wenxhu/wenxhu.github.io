@@ -2,3 +2,4 @@ url: https://huwx.top
 baseurl: ""
 markdown: kramdown
 permalink: :title.html
+favicon: /images/favicon.ico
