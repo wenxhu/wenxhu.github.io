@@ -14,18 +14,21 @@ layout: default
   </header> <!-- End Header -->
   <footer>
     <section class="contact">
-      <h3 class="contact-title">关于</h3>
+      <h3 class="contact-title">联系我</h3>
       <ul>
         {% if site.social-weibo %}
+        找我扯淡 >> 
           <li class="weibo"><a href="https://weibo.com/{{site.social-weibo}}" target="_blank"><i class="fa fa-weibo"></i></a></li>
         {% else %}
           <li class="weibo"><a href="https://weibo.com/" target="_blank"><i class="fa fa-weibo" aria-hidden="true"></i></a></li>
         {% endif %}
         {% if site.social-steam %}
+        和我游戏 >> 
           <li class="steam"><a href="https://steamcommunity.com/id/{{site.social-steam"}}" target="_blank"><i class="fa fa-steam""></i></a></li>
         {% else %}
           <li class="steam"><a href="https://steamcommunity.com/" target="_blank"><i class="fa fa-steam" aria-hidden="true"></i></a></li>
         {% endif %}
+        技术交流 >>
         {% if site.social-github %}
           <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
         {% else %}
