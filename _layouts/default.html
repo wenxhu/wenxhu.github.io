@@ -1,17 +1,12 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-    <title>{{ page.title }}</title>
-    {% include head.html %}
-    </head>
-	<body id="top">
-        {% include header.html %}
-		<!-- Main -->
-        <div id="main">
-            {{ content }} 
-            </div>
-        {% include footer.html %}
-        {% include baidu_analytics.html %}
-        {% include script.html %}
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+
+  <div class="wrapper">
+    {{ content }}
+  </div>
+  
+  {% include analytics.html %}
+</body>
 </html>
