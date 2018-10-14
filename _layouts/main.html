@@ -17,19 +17,16 @@ layout: default
       <h3 class="contact-title">联系我</h3>
       <ul>
         {% if site.social-weibo %}
-        <br>吐槽扯淡 >> 
           <li class="weibo"><a href="https://weibo.com/{{site.social-weibo}}" target="_blank"><i class="fa fa-weibo"></i></a></li>
         {% else %}
           <li class="weibo"><a href="https://weibo.com/" target="_blank"><i class="fa fa-weibo" aria-hidden="true"></i></a></li>
         {% endif %}
         {% if site.social-steam %}
-        <br>吃鸡火拼 >> 
           <li class="steam"><a href="https://steamcommunity.com/id/{{site.social-steam"}}" target="_blank"><i class="fa fa-steam""></i></a></li>
         {% else %}
           <li class="steam"><a href="https://steamcommunity.com/" target="_blank"><i class="fa fa-steam" aria-hidden="true"></i></a></li>
         {% endif %}
         {% if site.social-github %}
-        <br>技术交流 >>
           <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
         {% else %}
           <li class="github"><a href="http://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
