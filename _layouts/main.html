@@ -21,15 +21,15 @@ layout: default
         {% else %}
           <li class="weibo"><a href="https://weibo.com/" target="_blank"><i class="fa fa-weibo" aria-hidden="true"></i></a></li>
         {% endif %}
-        {% if site.social-github %}
-          <li class="github"><a href="https://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
-        {% else %}
-          <li class="github"><a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-        {% endif %}
         {% if site.social-steam %}
           <li class="steam"><a href="https://steamcommunity.com/id/{{site.social-steam"}}" target="_blank"><i class="fa fa-steam""></i></a></li>
         {% else %}
           <li class="steam"><a href="https://steamcommunity.com/" target="_blank"><i class="fa fa-steam" aria-hidden="true"></i></a></li>
+        {% endif %}
+        {% if site.social-github %}
+          <li class="github"><a href="https://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
+        {% else %}
+          <li class="github"><a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
         {% endif %}
         {% if site.social-email %}
           <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
