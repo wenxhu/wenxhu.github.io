@@ -24,7 +24,7 @@ social-email: wenxhu@outlook.com # add your Email address
 discus-identifier:  # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: wenxhu # Baidu Analytics
 
 # Build Settings
 markdown: kramdown
