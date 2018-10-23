@@ -11,7 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: WenXHu # add your name
 author-img: WenXHu.jpg # add your photo
-about-author: NAME：大胡<br>ID：WenXHu<br>关键不是你现在有多棒，<br>IT'S NOT HOW GOOD YOU ARE.<br>而是你想成为多棒的人。<br>IT'S HOW GOOD YOU WANT TO BE. # add description
+about-author: NAME：大胡<br>ID：WenXHu<br><br>关键不是你现在有多棒，<br>而是你想成为多棒的人。<br><br>IT'S NOT HOW GOOD YOU ARE.IT'S HOW GOOD YOU WANT TO BE. # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-weibo: wenxhu # add your weibo handle
