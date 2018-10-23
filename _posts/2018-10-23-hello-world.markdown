@@ -13,6 +13,10 @@ tags: [日常吐槽] # add tag
 安卓手机越用越慢，就[LineageOS]给手机刷机。我不会安卓开发， 但也刷机成功了。
 精简了不需要的APP，加上强迫症的瘾又犯了。
 结果就成这样了。
-![LineageOS]({{site.baseurl}}/assets/img/MyLineageOS.png)
+[LineageOS]({{site.baseurl}}/assets/img/MyLineageOS.png)
+
+所以：
+阻碍你去做你想做的事的，不是别人，就是自己。
+少点借口，不会就学，Just Do It！
 
 [LineageOS]: https://www.lineageos.org/
