@@ -14,7 +14,7 @@ tags: [日常吐槽] # add tag
 精简了不需要的APP，加上强迫症的瘾又犯了。
 结果就变成下面这样了。用起来还挺不错了。
 
-![LineageOS]({{site.baseurl}}/assets/img/MyLineageOS.png){:height="160px" width="90px"}
+![LineageOS]({{site.baseurl}}/assets/img/MyLineageOS.png){:height="320px" width="180px"}
 
 ### 所以
 
